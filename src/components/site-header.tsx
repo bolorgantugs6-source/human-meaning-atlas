@@ -14,6 +14,9 @@ export function SiteHeader() {
         <Link href="/compare" className="text-sm hover:text-accent">
           Compare
         </Link>
+        <Link href="/database" className="text-sm hover:text-accent">
+          Database
+        </Link>
         <ThemeToggle />
       </nav>
     </header>
