@@ -11,6 +11,258 @@ export type QuestionContent = {
 };
 
 export const content: Record<string, QuestionContent> = {
+  meaning: {
+    slug: "meaning",
+    intro:
+      "Why are we here at all? Some traditions locate meaning in a relationship with the divine, others in the practice of living well itself, and others suggest the question is built on a misunderstanding of what a 'self' even is.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Human life is understood as created intentionally by God, with purpose found in relationship with God, love of neighbor, and participation in God's redemptive plan for creation.",
+        interpretation:
+          "Scholars often note that this framework locates meaning outside the individual — in being known and loved by a creator — rather than in something the person constructs alone.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Traditional teaching holds that clinging to a fixed sense of inherent meaning or a permanent self is itself a source of suffering. Purpose is instead found in the practice of the Eightfold Path toward liberation from that suffering.",
+        interpretation:
+          "This is often described by scholars as a deliberately anti-essentialist stance: rather than answering 'why are we here,' Buddhism questions the assumptions embedded in the question.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "The Quran states that humanity was created to worship and know God, and to act as stewards (khalifah) of the earth, accountable for their conduct.",
+        interpretation:
+          "Scholars frequently characterize this as a covenantal view of meaning: purpose is inseparable from responsibility, both to God and to the created world.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Rather than a single doctrinal answer, meaning is commonly located in covenant, in the practice of mitzvot (commandments), and in tikkun olam — repairing and improving the world through ethical action.",
+        interpretation:
+          "Many scholars point to this as characteristic of Judaism more broadly: meaning is enacted through practice and communal obligation rather than settled by abstract doctrine.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Stoic philosophy holds that meaning is found in living in accordance with nature and reason, and in the cultivation of virtue — the only true good — regardless of external circumstances.",
+        interpretation:
+          "This is often read by scholars as relocating meaning entirely within the individual's own judgments and choices, since virtue is treated as the one thing fully within a person's control.",
+      },
+    ],
+  },
+  suffering: {
+    slug: "suffering",
+    intro:
+      "Every tradition here takes suffering seriously as a central human problem — but they diverge sharply on whether suffering is a test, an illusion to see through, a consequence of choices, or simply an unavoidable feature of existence to be met with equanimity.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Suffering is variously understood as a consequence of the Fall, a test of faith, an opportunity for spiritual growth, or something God participates in directly through the suffering and death of Christ.",
+        interpretation:
+          "Scholars note the theology of the cross is often read as central here: suffering is not merely explained away, but is held to have been shared by God, which shapes how meaning is drawn from it.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Suffering (dukkha) is identified as the First Noble Truth — a basic feature of unenlightened existence, caused by craving and attachment, and addressable through the Eightfold Path.",
+        interpretation:
+          "This is often described by scholars as a diagnostic, almost clinical framework: suffering has an identifiable cause and, correspondingly, a cure through practice.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "Suffering is understood as part of divine testing (fitna), which can purify faith and increase reward, alongside an emphasis on patience (sabr) and trust in God's wisdom (tawakkul).",
+        interpretation:
+          "Scholars often frame this as suffering being reoriented rather than eliminated — its presence is accepted, but its meaning is transformed through the response of patient faith.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Perspectives range widely, from suffering as divine punishment in earlier biblical texts, to the Book of Job's challenge to that very framework, to post-Holocaust theology that questions whether suffering can be theologically justified at all.",
+        interpretation:
+          "Many scholars highlight this internal diversity itself as significant — Judaism is often characterized as unusually willing to preserve unresolved theological tension rather than settle on one account.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Stoicism distinguishes between events (which are outside our control) and our judgments about them (which are within our control), holding that suffering arises primarily from mistaken judgments, not from external events themselves.",
+        interpretation:
+          "This is frequently summarized by scholars as a cognitive account of suffering — centuries before modern psychology, Stoicism located distress in interpretation rather than circumstance.",
+      },
+    ],
+  },
+  consciousness: {
+    slug: "consciousness",
+    intro:
+      "What is the self that experiences all of this? Some traditions treat it as an eternal soul, others as a temporary bundle of processes, and others locate it primarily in relationship and community rather than as an isolated inner entity at all.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Most traditions hold that humans possess an immortal soul, distinct from the body, created by God and bearing the 'image of God' (imago Dei), though the exact relationship between soul and body is debated across denominations.",
+        interpretation:
+          "Scholars often note this grounds human dignity and moral status in something metaphysically distinct from the physical body, with significant downstream implications for ethics.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "The doctrine of anatta (non-self) holds that there is no permanent, unchanging self or soul — what we call 'self' is a continuously changing process of physical and mental phenomena (the five aggregates).",
+        interpretation:
+          "This is often characterized by scholars as one of the more radical claims among major traditions: the intuitive sense of a stable 'I' is treated as a cognitive construction, not a metaphysical fact.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "Humans are understood to possess a soul (ruh) breathed into them by God, along with a nafs (self/ego) that can be inclined toward good or evil depending on spiritual discipline.",
+        interpretation:
+          "Scholars frequently note the nafs framework treats the self as something dynamic and morally contestable, rather than fixed — a site of ongoing spiritual struggle.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "The nature of the soul (neshamah) is discussed with considerable variation, from the Hebrew Bible's relatively holistic view of the person to later Kabbalistic frameworks describing multiple layers of the soul.",
+        interpretation:
+          "Many scholars point out that Jewish thought historically emphasizes the person as an embodied, integrated whole, in contrast to sharper body-soul dualism found elsewhere.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "The self is identified primarily with the rational, governing faculty of the mind (hegemonikon) — the capacity for judgment and choice — rather than with the body or external circumstances.",
+        interpretation:
+          "This is often read by scholars as an early form of locating personal identity specifically in rational agency, prefiguring later philosophical treatments of the self.",
+      },
+    ],
+  },
+  morality: {
+    slug: "morality",
+    intro:
+      "How should we live? The traditions here root ethics in different foundations — divine command, the reduction of suffering, natural law, or living in accordance with reason — which shapes not just what counts as right action, but why.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Ethics is generally grounded in divine command and the example of Christ, especially the twin commandments to love God and love one's neighbor, alongside virtue traditions (e.g. the cardinal and theological virtues).",
+        interpretation:
+          "Scholars often describe this as combining rule-based and relational elements: moral action flows both from commandments and from a call to imitate a particular moral exemplar.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Ethical conduct (sila) is one of the three trainings of the Eightfold Path, generally oriented around reducing suffering for oneself and others, guided by precepts such as non-harming (ahimsa).",
+        interpretation:
+          "This is frequently framed by scholars as consequentialist in flavor — actions are evaluated significantly by the suffering or wellbeing they produce, rather than by rule-following alone.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "Morality is grounded in Sharia, derived from the Quran and Hadith, encompassing both ritual obligation and social ethics, with an overarching framework of accountability to God.",
+        interpretation:
+          "Scholars often note that Islamic ethics does not sharply separate 'religious' from 'moral' duty — worship and ethical conduct are treated as continuous with one another.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Ethics is substantially structured around the 613 mitzvot (commandments) found in the Torah, alongside a rich rabbinic tradition of legal and ethical interpretation (halakha).",
+        interpretation:
+          "Many scholars highlight the centrality of interpretation and debate itself in Jewish ethical life — moral reasoning is treated as an ongoing communal practice, not a closed system.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Virtue — wisdom, courage, justice, and temperance — is held to be the sole true good, with right action defined as that which accords with reason and nature, independent of outcomes.",
+        interpretation:
+          "This is often summarized by scholars as a virtue-ethics framework: character and intention are treated as what matters, rather than the external results of an action.",
+      },
+    ],
+  },
+  "free-will": {
+    slug: "free-will",
+    intro:
+      "Are we truly free, or are our choices determined by forces beyond our control — divine will, karma, nature, or fate? The traditions below offer distinct, and sometimes internally contested, answers.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Most traditions affirm human free will as a gift from God, though its relationship to divine foreknowledge and grace has been a major point of internal theological debate for centuries (e.g. Calvinist predestination versus Arminian free will).",
+        interpretation:
+          "Scholars often note that this unresolved tension — between human freedom and God's sovereignty — has generated some of the most sustained debate within Christian theology.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Rather than free will in an absolute sense, action is understood through dependent origination — every state arises from prior causes and conditions, including karma from past actions, while intentional action (cetana) remains central to ethical responsibility.",
+        interpretation:
+          "This is often described by scholars as neither strict determinism nor libertarian free will, but a middle framework in which conditioned action still carries moral weight.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "Classical theology holds both that God has complete knowledge and power over all events (qadar) and that humans are morally responsible for their choices — a tension addressed differently across theological schools (e.g. Ash'ari versus Mu'tazila).",
+        interpretation:
+          "Scholars frequently note this mirrors a broader pattern across Abrahamic traditions: reconciling divine omnipotence with genuine human moral responsibility.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Free will is generally affirmed as necessary for moral responsibility and the commandments to have meaning, notably articulated by Maimonides, though the tension with divine foreknowledge is acknowledged rather than fully resolved.",
+        interpretation:
+          "Many scholars point to Jewish thought's comfort with holding this tension as unresolved, prioritizing the practical necessity of free will for ethical life over a fully settled metaphysics.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Stoicism holds that external events are governed by fate (a rational cosmic order, logos), while human freedom lies specifically in one's assent to impressions and judgments — what we do with what happens to us.",
+        interpretation:
+          "This is often read by scholars as a compatibilist position avant la lettre: fate governs circumstance, but a meaningful form of freedom remains in our response to it.",
+      },
+    ],
+  },
+  identity: {
+    slug: "identity",
+    intro:
+      "What makes someone who they are — a soul, a body, a community, a pattern of change? These traditions locate identity in strikingly different places, from an eternal essence to an ever-shifting process to a self defined through relationship and belonging.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Identity is significantly grounded in being created in the image of God (imago Dei) and, for believers, in being adopted into relationship with God through Christ — identity is understood as fundamentally relational and God-given.",
+        interpretation:
+          "Scholars often note this frames identity as received rather than self-authored: who one is depends significantly on one's relationship to God, not solely on individual choice.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Consistent with the doctrine of anatta, personal identity is treated as a conventional, continuously changing process rather than a fixed essence — what persists across time is a causal chain, not an unchanging self.",
+        interpretation:
+          "This is frequently described by scholars as treating identity as a useful fiction: practically necessary for navigating life, but not metaphysically ultimate.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "Identity is substantially shaped by one's relationship to God as a servant (abd) and steward (khalifah), and by membership in the ummah, the global community of believers.",
+        interpretation:
+          "Scholars often highlight the communal dimension here: individual identity is significantly embedded within a shared religious community rather than conceived in isolation.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Jewish identity is notably multidimensional, encompassing religious practice, ethnicity, covenant, and peoplehood, with debate continuing over the relative weight of belief, ancestry, and practice in defining who counts as Jewish.",
+        interpretation:
+          "Many scholars point to this multidimensionality as a defining feature — Jewish identity resists reduction to a single criterion like belief alone.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Personal identity is centered on one's rational faculty and character, with Stoics distinguishing the true self (reason and virtue) from external roles, possessions, and circumstances, which are considered 'indifferent' to who one really is.",
+        interpretation:
+          "This is often read by scholars as an early argument for an inner, role-independent self — identity is what remains when externals like status or wealth are stripped away.",
+      },
+    ],
+  },
   death: {
     slug: "death",
     intro:
