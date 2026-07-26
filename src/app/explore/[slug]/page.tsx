@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/site-header";
 import { questions } from "@/lib/questions";
 import { content } from "@/lib/content";
+import { synthesis } from "@/lib/synthesis";
 
 export default async function QuestionPage({
   params,
@@ -26,6 +27,14 @@ export default async function QuestionPage({
         {data ? (
           <>
             <p className="mt-6 text-lg text-muted">{data.intro}</p>
+            {synthesis[slug] && (
+              <div className="mt-8 rounded-2xl border border-accent/40 bg-accent/5 p-5">
+                <span className="text-xs font-medium uppercase tracking-widest text-accent">
+                  AI-generated synthesis
+                </span>
+                <p className="mt-2 text-sm">{synthesis[slug]}</p>
+              </div>
+            )}
             <div className="mt-10 flex flex-col gap-6">
               {data.traditions.map((t) => (
                 <div
