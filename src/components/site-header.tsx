@@ -8,8 +8,9 @@ const links = [
   { href: "/explore", label: "Explore" },
   { href: "/compare", label: "Compare" },
   { href: "/database", label: "Database" },
-  { href: "/about", label: "About" },
   { href: "/map", label: "Origins" },
+  { href: "/sources", label: "Sources" },
+  { href: "/about", label: "About" },
 ];
 
 export function SiteHeader() {

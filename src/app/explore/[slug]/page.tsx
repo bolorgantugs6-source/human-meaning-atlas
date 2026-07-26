@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/site-header";
 import { questions } from "@/lib/questions";
 import { content } from "@/lib/content";
 import { synthesis } from "@/lib/synthesis";
+import { sources } from "@/lib/sources";
 
 export default async function QuestionPage({
   params,
@@ -48,6 +49,21 @@ export default async function QuestionPage({
                     </span>
                     <p className="mt-1 text-foreground">{t.facts}</p>
                   </div>
+                  {sources[t.tradition] && (
+                    <div className="mt-4 border-t border-border pt-4">
+                      <span className="text-xs font-medium uppercase tracking-widest text-muted">
+                        Sources
+                      </span>
+                      <ul className="mt-1 text-xs text-muted">
+                        {sources[t.tradition].map((s) => (
+                          <li key={s.title}>
+                            {s.author ? `${s.author}, ` : ""}
+                            {s.title}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   <div className="mt-4">
                     <span className="text-xs font-medium uppercase tracking-widest text-muted">
                       Scholarly interpretation
