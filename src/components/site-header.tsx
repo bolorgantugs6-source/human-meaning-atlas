@@ -7,7 +7,15 @@ export function SiteHeader() {
       <Link href="/" className="font-serif text-lg tracking-tight">
         The Human Meaning Atlas
       </Link>
-      <ThemeToggle />
+      <nav className="flex items-center gap-6">
+        <Link href="/explore" className="text-sm hover:text-accent">
+          Explore
+        </Link>
+        <Link href="/compare" className="text-sm hover:text-accent">
+          Compare
+        </Link>
+        <ThemeToggle />
+      </nav>
     </header>
   );
 }
