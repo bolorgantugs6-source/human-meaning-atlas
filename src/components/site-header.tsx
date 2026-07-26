@@ -20,6 +20,9 @@ export function SiteHeader() {
         <Link href="/about" className="text-sm hover:text-accent">
           About
         </Link>
+        <Link href="/map" className="text-sm hover:text-accent">
+          Origins
+        </Link>
         <ThemeToggle />
       </nav>
     </header>
