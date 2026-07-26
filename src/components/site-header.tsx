@@ -17,6 +17,9 @@ export function SiteHeader() {
         <Link href="/database" className="text-sm hover:text-accent">
           Database
         </Link>
+        <Link href="/about" className="text-sm hover:text-accent">
+          About
+        </Link>
         <ThemeToggle />
       </nav>
     </header>
