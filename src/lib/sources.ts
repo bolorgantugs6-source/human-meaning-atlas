@@ -65,4 +65,38 @@ export const sources: Record<string, Source[]> = {
       type: "reference",
     },
   ],
+  Hinduism: [
+    {
+      title: "The Bhagavad Gita",
+      author: "trans. Eknath Easwaran",
+      type: "primary",
+    },
+    { title: "The Upanishads", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Hinduism\"",
+      type: "reference",
+    },
+  ],
+  Confucianism: [
+    {
+      title: "The Analects",
+      author: "Confucius, trans. Arthur Waley",
+      type: "primary",
+    },
+    { title: "Mencius", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Confucianism\"",
+      type: "reference",
+    },
+  ],
 };

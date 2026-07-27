@@ -51,6 +51,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "This is often read by scholars as relocating meaning entirely within the individual's own judgments and choices, since virtue is treated as the one thing fully within a person's control.",
       },
+      {
+        tradition: "Hinduism",
+        facts:
+          "Meaning is commonly framed around fulfilling one's dharma (duty, appropriate to one's stage of life and role), pursued alongside the aims of artha (prosperity) and kama (pleasure), with moksha — liberation from the cycle of rebirth — as the ultimate goal beyond them.",
+        interpretation:
+          "Scholars often describe this as a layered view of meaning: worldly duties and pleasures are treated as legitimate in their own right, not as obstacles, while still nested within a further, transcendent goal.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "Meaning is found in cultivating virtue and properly fulfilling one's role within family and society, working toward becoming a junzi (exemplary person), with comparatively little emphasis on metaphysical claims about gods or an afterlife.",
+        interpretation:
+          "Scholars frequently describe this as a fundamentally social and relational conception of meaning, in contrast to traditions that locate meaning primarily in individual salvation or a personal relationship with the divine.",
+      },
     ],
   },
   suffering: {
@@ -92,6 +106,76 @@ export const content: Record<string, QuestionContent> = {
           "Stoicism distinguishes between events (which are outside our control) and our judgments about them (which are within our control), holding that suffering arises primarily from mistaken judgments, not from external events themselves.",
         interpretation:
           "This is frequently summarized by scholars as a cognitive account of suffering — centuries before modern psychology, Stoicism located distress in interpretation rather than circumstance.",
+      },
+      {
+        tradition: "Hinduism",
+        facts:
+          "Suffering is understood as arising from ignorance (avidya) of one's true nature and from attachment, bound up with karma and the cycle of rebirth (samsara); addressed through right knowledge, devotion, or disciplined practice depending on the school.",
+        interpretation:
+          "Scholars often note the key contrast with Buddhism here: Hinduism generally affirms a real, eternal self (atman) underlying suffering, rather than treating the sense of self itself as the root problem.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "Suffering is addressed less through systematic metaphysical explanation and more through practical means — proper conduct, ritual propriety (li), and the maintenance of social harmony; social disorder and suffering are often attributed to a failure to fulfill role-based duties.",
+        interpretation:
+          "Scholars frequently point to Confucianism's relative silence on the ultimate origin of suffering as consistent with its broader emphasis on practical ethics over metaphysical speculation.",
+      },
+    ],
+  },
+  death: {
+    slug: "death",
+    intro:
+      "Few questions are asked as universally as what happens when we die. The traditions below differ not just in their answers, but in what kind of answer they consider meaningful — a promise, a process, a mystery, or a return.",
+    traditions: [
+      {
+        tradition: "Christianity",
+        facts:
+          "Core texts (the New Testament) describe bodily resurrection and eternal life, with judgment determining the soul's fate. Denominations vary widely on details like purgatory, the timing of judgment, and the nature of heaven and hell.",
+        interpretation:
+          "Scholars often read Christian death theology as answering an implicit hope: that moral struggle in this life has ultimate meaning, vindicated in an afterlife.",
+      },
+      {
+        tradition: "Buddhism",
+        facts:
+          "Death is understood through the doctrine of rebirth (samsara), driven by karma, continuing until liberation (nirvana) is achieved. There is no permanent, unchanging soul that travels between lives — what continues is a causal process, not a fixed self.",
+        interpretation:
+          "This framework is often read by scholars as reframing death itself as the wrong question — the deeper issue is attachment and the illusion of a fixed self, not mortality per se.",
+      },
+      {
+        tradition: "Islam",
+        facts:
+          "The Quran describes death as a transition to barzakh, an intermediate state, followed by bodily resurrection and judgment on the Day of Reckoning, leading to Paradise or Hell.",
+        interpretation:
+          "Islamic eschatology is frequently characterized by scholars as emphasizing moral accountability — death is not an end but a checkpoint in a continuous relationship with God's justice.",
+      },
+      {
+        tradition: "Judaism",
+        facts:
+          "Beliefs about the afterlife are notably less doctrinally fixed than in Christianity or Islam. Historical and denominational views range from Sheol (a shadowy underworld) to bodily resurrection to focus on this-worldly ethical life over metaphysical speculation.",
+        interpretation:
+          "Many scholars note this openness reflects Judaism's broader emphasis on right action and communal life in the present, rather than a settled doctrine of what follows death.",
+      },
+      {
+        tradition: "Stoicism",
+        facts:
+          "Stoic philosophers (e.g. Epictetus, Marcus Aurelius, Seneca) held that death is a natural transformation, not an evil — the individual returns to the elements from which they came. Stoicism generally does not affirm a personal afterlife; some Stoics entertained the soul persisting temporarily before dissolving back into the cosmos.",
+        interpretation:
+          "Scholars often frame Stoic death-acceptance as central to its ethical project: since death is outside our control, fearing it is treated as a category error — training oneself not to fear death is treated as inseparable from living virtuously.",
+      },
+      {
+        tradition: "Hinduism",
+        facts:
+          "Death is understood as a transition within the ongoing cycle of samsara — the soul (atman) is reborn according to accumulated karma, continuing until moksha (liberation) is achieved, at which point the self is understood either to merge with or realize its identity with Brahman, depending on the philosophical school.",
+        interpretation:
+          "Scholars often highlight that even within Hinduism, there is significant internal disagreement — between non-dualist (Advaita) and dualist (Dvaita) schools — over whether liberation means unity with the divine or an eternally distinct relationship to it.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "Confucius is recorded as notably reticent on the subject of death and the afterlife, with the Analects attributing to him the view that one should focus on properly understanding life before speculating about death; ancestor veneration remains an important practice, centered on honoring and remembering the dead.",
+        interpretation:
+          "Scholars frequently describe this deliberate agnosticism as consistent with Confucianism's broader this-worldly, practical orientation, which prioritizes ethical conduct in the present over metaphysical claims about what follows death.",
       },
     ],
   },
@@ -135,6 +219,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "This is often read by scholars as an early form of locating personal identity specifically in rational agency, prefiguring later philosophical treatments of the self.",
       },
+      {
+        tradition: "Hinduism",
+        facts:
+          "The atman (individual self/soul) is held by many schools to be eternal and, in non-dualist traditions like Advaita Vedanta, ultimately identical to Brahman, the universal ground of reality; dualist schools (like Dvaita) instead hold the self remains eternally distinct from, though related to, the divine.",
+        interpretation:
+          "Scholars often highlight this monist-versus-dualist split as one of the most significant unresolved philosophical debates within Hinduism itself, rather than a settled tradition-wide position.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "The self is understood primarily in relational terms — substantially constituted by one's roles and relationships (ruler-subject, parent-child, elder-younger, and so on) — with self-cultivation (xiushen) treated as the central lifelong practice of becoming a fully realized person.",
+        interpretation:
+          "Scholars often contrast this relational conception of self sharply with more individualistic frameworks that treat the self as a bounded, independent entity prior to its relationships.",
+      },
     ],
   },
   morality: {
@@ -176,6 +274,20 @@ export const content: Record<string, QuestionContent> = {
           "Virtue — wisdom, courage, justice, and temperance — is held to be the sole true good, with right action defined as that which accords with reason and nature, independent of outcomes.",
         interpretation:
           "This is often summarized by scholars as a virtue-ethics framework: character and intention are treated as what matters, rather than the external results of an action.",
+      },
+      {
+        tradition: "Hinduism",
+        facts:
+          "Ethics is oriented around dharma — duty appropriate to one's social role, stage of life, and the cosmic order — with texts such as the Bhagavad Gita and Manusmriti discussing the specifics; non-harm (ahimsa) is a central value across many schools and traditions within Hinduism.",
+        interpretation:
+          "Scholars often describe this as a context-dependent ethical system: what counts as the right action can vary significantly by one's station in life, in contrast to more strictly universalist ethical frameworks.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "Ethics centers on the Five Constant Virtues — ren (benevolence), yi (righteousness), li (ritual propriety), zhi (wisdom), and xin (integrity) — expressed through the Five Relationships that structure proper conduct, with strong emphasis on filial piety (xiao).",
+        interpretation:
+          "Scholars often characterize Confucian ethics as simultaneously virtue-based and role-based, distinguishing it from ethical systems built primarily around universal rules or pure calculation of consequences.",
       },
     ],
   },
@@ -219,6 +331,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "This is often read by scholars as a compatibilist position avant la lettre: fate governs circumstance, but a meaningful form of freedom remains in our response to it.",
       },
+      {
+        tradition: "Hinduism",
+        facts:
+          "The doctrine of karma holds that actions produce consequences that shape future circumstances and rebirths; free will is generally affirmed within these constraints, alongside the concept of one's inherent nature (svabhava), which also shapes choice.",
+        interpretation:
+          "Scholars often frame this as a compatibilist position: genuine freedom is exercised, but always within a deterministic web of karmic cause and effect established by past action.",
+      },
+      {
+        tradition: "Confucianism",
+        facts:
+          "Significant emphasis is placed on self-cultivation, implying real capacity for moral choice and improvement through effort and education; the concept of Tian (Heaven, or the natural-moral order) sets an overarching framework individuals are expected to align with, while still choosing whether to act virtuously.",
+        interpretation:
+          "Scholars often note that Confucian thought assumes moral agency is real and improvable, standing in contrast to more strongly deterministic frameworks found elsewhere.",
+      },
     ],
   },
   identity: {
@@ -261,47 +387,19 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "This is often read by scholars as an early argument for an inner, role-independent self — identity is what remains when externals like status or wealth are stripped away.",
       },
-    ],
-  },
-  death: {
-    slug: "death",
-    intro:
-      "Few questions are asked as universally as what happens when we die. The traditions below differ not just in their answers, but in what kind of answer they consider meaningful — a promise, a process, a mystery, or a return.",
-    traditions: [
       {
-        tradition: "Christianity",
+        tradition: "Hinduism",
         facts:
-          "Core texts (the New Testament) describe bodily resurrection and eternal life, with judgment determining the soul's fate. Denominations vary widely on details like purgatory, the timing of judgment, and the nature of heaven and hell.",
+          "Identity is understood variously depending on school — as the individual self (atman) ultimately identical to universal Brahman in non-dualist traditions, or as an eternally distinct though related self in dualist traditions; historically, social identity has also been closely tied to caste (varna) and stage of life (ashrama).",
         interpretation:
-          "Scholars often read Christian death theology as answering an implicit hope: that moral struggle in this life has ultimate meaning, vindicated in an afterlife.",
+          "Scholars note that this represents a genuine, unresolved philosophical debate within Hinduism itself — over whether ultimate identity is fundamentally unified or fundamentally plural — rather than a single doctrinal position.",
       },
       {
-        tradition: "Buddhism",
+        tradition: "Confucianism",
         facts:
-          "Death is understood through the doctrine of rebirth (samsara), driven by karma, continuing until liberation (nirvana) is achieved. There is no permanent, unchanging soul that travels between lives — what continues is a causal process, not a fixed self.",
+          "Identity is substantially constituted by one's network of social relationships and the fulfillment of associated role-based duties, rather than by an independent, unchanging essence; the ongoing process of self-cultivation is central to who a person continually becomes.",
         interpretation:
-          "This framework is often read by scholars as reframing death itself as the wrong question — the deeper issue is attachment and the illusion of a fixed self, not mortality per se.",
-      },
-      {
-        tradition: "Islam",
-        facts:
-          "The Quran describes death as a transition to barzakh, an intermediate state, followed by bodily resurrection and judgment on the Day of Reckoning, leading to Paradise or Hell.",
-        interpretation:
-          "Islamic eschatology is frequently characterized by scholars as emphasizing moral accountability — death is not an end but a checkpoint in a continuous relationship with God's justice.",
-      },
-      {
-        tradition: "Judaism",
-        facts:
-          "Beliefs about the afterlife are notably less doctrinally fixed than in Christianity or Islam. Historical and denominational views range from Sheol (a shadowy underworld) to bodily resurrection to focus on this-worldly ethical life over metaphysical speculation.",
-        interpretation:
-          "Many scholars note this openness reflects Judaism's broader emphasis on right action and communal life in the present, rather than a settled doctrine of what follows death.",
-      },
-      {
-        tradition: "Stoicism",
-        facts:
-          "Stoic philosophers (e.g. Epictetus, Marcus Aurelius, Seneca) held that death is a natural transformation, not an evil — the individual returns to the elements from which they came. Stoicism generally does not affirm a personal afterlife; some Stoics entertained the soul persisting temporarily before dissolving back into the cosmos.",
-        interpretation:
-          "Scholars often frame Stoic death-acceptance as central to its ethical project: since death is outside our control, fearing it is treated as a category error — training oneself not to fear death is treated as inseparable from living virtuously.",
+          "Scholars frequently note this makes Confucian identity fundamentally relational and processual — something continually shaped through practice and relationship, rather than a fixed starting point.",
       },
     ],
   },
