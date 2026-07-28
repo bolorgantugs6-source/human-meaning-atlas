@@ -99,4 +99,33 @@ export const sources: Record<string, Source[]> = {
       type: "reference",
     },
   ],
+  Sikhism: [
+    { title: "The Guru Granth Sahib", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Sikhism\"",
+      type: "reference",
+    },
+  ],
+  Taoism: [
+    {
+      title: "Tao Te Ching",
+      author: "Laozi, trans. D.C. Lau",
+      type: "primary",
+    },
+    { title: "Zhuangzi", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Taoism\"",
+      type: "reference",
+    },
+  ],
 };

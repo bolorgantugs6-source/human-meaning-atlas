@@ -64,6 +64,21 @@ export const content: Record<string, QuestionContent> = {
           "Meaning is found in cultivating virtue and properly fulfilling one's role within family and society, working toward becoming a junzi (exemplary person), with comparatively little emphasis on metaphysical claims about gods or an afterlife.",
         interpretation:
           "Scholars frequently describe this as a fundamentally social and relational conception of meaning, in contrast to traditions that locate meaning primarily in individual salvation or a personal relationship with the divine.",
+        
+      },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Meaning is found in realizing union with Waheguru (God) through remembrance of the divine Name (Naam Japna), honest living (Kirat Karni), and selfless service to others (Vand Chakna), ultimately overcoming the ego (haumai) that separates the self from God.",
+        interpretation:
+          "Scholars often describe Sikh meaning-making as distinctly integrated: spiritual devotion, ethical livelihood, and communal service are treated as inseparable rather than as separate obligations.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Meaning is found in aligning oneself with the Tao — the underlying, ineffable way of nature and the universe — through wu wei (effortless action) and simplicity, rather than through striving, ambition, or imposed structure.",
+        interpretation:
+          "Scholars frequently contrast this with more rule- or duty-based traditions: Taoist meaning is less about fulfilling a defined role and more about a kind of attuned non-resistance to how things naturally unfold.",
       },
     ],
   },
@@ -121,6 +136,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars frequently point to Confucianism's relative silence on the ultimate origin of suffering as consistent with its broader emphasis on practical ethics over metaphysical speculation.",
       },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Suffering is significantly attributed to the ego (haumai) and attachment to worldly illusion (maya), which separate the individual from God; it is addressed through devotion, service, and living according to divine will (Hukam).",
+        interpretation:
+          "Scholars often note this shares structural similarities with Buddhist and Hindu accounts of suffering rooted in ego and attachment, while remaining distinctly theistic in its proposed remedy.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Suffering is often understood as arising from resistance to the natural flow of the Tao — from excessive desire, rigid striving, and imposing artificial order on things that would otherwise unfold naturally.",
+        interpretation:
+          "Scholars frequently frame this as suffering being self-imposed through misalignment, with the proposed remedy being release and acceptance rather than struggle or systematic diagnosis.",
+      },
     ],
   },
   death: {
@@ -176,6 +205,20 @@ export const content: Record<string, QuestionContent> = {
           "Confucius is recorded as notably reticent on the subject of death and the afterlife, with the Analects attributing to him the view that one should focus on properly understanding life before speculating about death; ancestor veneration remains an important practice, centered on honoring and remembering the dead.",
         interpretation:
           "Scholars frequently describe this deliberate agnosticism as consistent with Confucianism's broader this-worldly, practical orientation, which prioritizes ethical conduct in the present over metaphysical claims about what follows death.",
+      },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Death is understood within the cycle of rebirth shaped by karma, continuing until the soul achieves union with Waheguru; this liberation (mukti) ends the cycle of reincarnation.",
+        interpretation:
+          "Scholars often note Sikhism shares the rebirth-and-liberation structure common to Indian religious traditions, while placing distinct emphasis on union with a personal God as the goal.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Death is generally understood as a natural transformation — a return to the Tao, akin to other cyclical processes in nature — rather than an ending to be feared or a transition requiring judgment.",
+        interpretation:
+          "Scholars often compare this to Stoic views of death as natural transformation, though Taoism frames it specifically through the lens of cosmic flow and cyclical change rather than rational acceptance.",
       },
     ],
   },
@@ -233,6 +276,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often contrast this relational conception of self sharply with more individualistic frameworks that treat the self as a bounded, independent entity prior to its relationships.",
       },
+      {
+        tradition: "Sikhism",
+        facts:
+          "The soul is understood as a spark of the divine, temporarily separated from Waheguru by ego and illusion (maya); spiritual practice is aimed at dissolving that ego so the soul can recognize its true, God-connected nature.",
+        interpretation:
+          "Scholars often note this positions the self as fundamentally divine in origin, with ego treated as an obscuring layer rather than the self's true nature.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "The self is understood as inseparable from the natural world and the Tao, rather than as a bounded, independent entity; rigid notions of a fixed self are often treated as an obstacle to living in harmony with the Tao.",
+        interpretation:
+          "Scholars frequently compare this fluid conception of self to Buddhist non-self, while noting Taoism frames it through nature and cosmic flow rather than through analysis of mental processes.",
+      },
     ],
   },
   morality: {
@@ -288,6 +345,20 @@ export const content: Record<string, QuestionContent> = {
           "Ethics centers on the Five Constant Virtues — ren (benevolence), yi (righteousness), li (ritual propriety), zhi (wisdom), and xin (integrity) — expressed through the Five Relationships that structure proper conduct, with strong emphasis on filial piety (xiao).",
         interpretation:
           "Scholars often characterize Confucian ethics as simultaneously virtue-based and role-based, distinguishing it from ethical systems built primarily around universal rules or pure calculation of consequences.",
+      },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Ethics centers on honest labor (Kirat Karni), sharing with others (Vand Chakna), and constant remembrance of God (Naam Japna), alongside a strong emphasis on equality — historically including rejection of caste distinctions.",
+        interpretation:
+          "Scholars often highlight Sikhism's explicit egalitarianism as a notably distinctive ethical commitment relative to some other traditions with historical caste associations in the same region.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Ethics is oriented around wu wei (non-forcing action), humility, and simplicity, generally favoring minimal interference — with oneself, others, and nature — over rigid rule-following or assertive moral striving.",
+        interpretation:
+          "Scholars often contrast this with more rule-based or virtue-cultivation ethical systems: Taoist ethics is frequently described as an ethics of restraint and non-imposition rather than active moral construction.",
       },
     ],
   },
@@ -345,6 +416,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often note that Confucian thought assumes moral agency is real and improvable, standing in contrast to more strongly deterministic frameworks found elsewhere.",
       },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Human choice operates within Hukam, the divine order or will of God; individuals are understood as free to choose whether to align themselves with Hukam through devotion and ethical living, or to remain bound by ego and karma.",
+        interpretation:
+          "Scholars often describe this as a compatibilist position: genuine choice exists, but is meaningfully exercised in relation to, not independent of, a larger divine order.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Rather than emphasizing willful choice, Taoism emphasizes wu wei — aligning one's actions with the natural flow of the Tao rather than imposing one's will upon it; excessive assertion of individual will is often treated as counterproductive.",
+        interpretation:
+          "Scholars frequently note this reframes the free will question itself: the Taoist ideal is less about exercising freedom and more about relinquishing forceful self-assertion altogether.",
+      },
     ],
   },
   identity: {
@@ -400,6 +485,20 @@ export const content: Record<string, QuestionContent> = {
           "Identity is substantially constituted by one's network of social relationships and the fulfillment of associated role-based duties, rather than by an independent, unchanging essence; the ongoing process of self-cultivation is central to who a person continually becomes.",
         interpretation:
           "Scholars frequently note this makes Confucian identity fundamentally relational and processual — something continually shaped through practice and relationship, rather than a fixed starting point.",
+      },
+      {
+        tradition: "Sikhism",
+        facts:
+          "Identity is grounded in one's relationship with Waheguru and membership in the Khalsa community, with the Five Ks (including uncut hair and the turban for initiated Sikhs) serving as visible markers of committed identity and equality among members.",
+        interpretation:
+          "Scholars often note that Sikh identity combines deeply personal spiritual devotion with a strong, visibly marked communal and egalitarian identity.",
+      },
+      {
+        tradition: "Taoism",
+        facts:
+          "Identity is understood as fluid and processual, deeply embedded in and inseparable from the natural world, rather than as a fixed, bounded self distinct from one's surroundings.",
+        interpretation:
+          "Scholars frequently compare this to Buddhist and some Hindu non-dualist views of identity as constructed or interdependent, while Taoism frames it specifically through harmony with nature rather than metaphysical analysis of the self.",
       },
     ],
   },
