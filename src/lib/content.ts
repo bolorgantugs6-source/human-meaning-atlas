@@ -80,6 +80,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars frequently contrast this with more rule- or duty-based traditions: Taoist meaning is less about fulfilling a defined role and more about a kind of attuned non-resistance to how things naturally unfold.",
       },
+      {
+        tradition: "Jainism",
+        facts:
+          "Meaning is found in the soul's (jiva) progressive purification from karmic matter accumulated through action, ultimately achieving moksha (liberation) through right faith, right knowledge, and right conduct — most centrally, strict non-violence (ahimsa).",
+        interpretation:
+          "Scholars often note Jainism takes the logic of karma and liberation found elsewhere in Indian religious traditions and extends it to its most rigorous, systematic conclusion, particularly regarding non-harm to all living beings.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Rather than a systematic doctrine of ultimate meaning, Shinto emphasizes maintaining harmony with kami (spirits or divine forces present in nature, ancestors, and notable phenomena) through ritual purity, gratitude, and proper practice.",
+        interpretation:
+          "Scholars frequently note that Shinto is comparatively unconcerned with articulating a single doctrinal 'meaning of life,' focusing instead on ritual relationship and harmony in the present.",
+      },
     ],
   },
   suffering: {
@@ -149,6 +163,20 @@ export const content: Record<string, QuestionContent> = {
           "Suffering is often understood as arising from resistance to the natural flow of the Tao — from excessive desire, rigid striving, and imposing artificial order on things that would otherwise unfold naturally.",
         interpretation:
           "Scholars frequently frame this as suffering being self-imposed through misalignment, with the proposed remedy being release and acceptance rather than struggle or systematic diagnosis.",
+      },
+      {
+        tradition: "Jainism",
+        facts:
+          "Suffering results from karmic bondage caused by violence, attachment, and passions (kashaya); it is addressed through ascetic discipline, non-violence, and the gradual shedding of accumulated karma.",
+        interpretation:
+          "Scholars often note Jainism's account of suffering is unusually mechanistic and precise among world religions, treating karma almost as a physical substance that can be systematically removed through disciplined practice.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Suffering is less a subject of systematic doctrine than something addressed through ritual purification (harae) to remove impurity (kegare), which is understood to disrupt harmony with kami and community.",
+        interpretation:
+          "Scholars often characterize the Shinto approach to suffering as practice-oriented rather than explanatory — the emphasis falls on restoring ritual purity rather than on diagnosing suffering's ultimate cause.",
       },
     ],
   },
@@ -220,6 +248,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often compare this to Stoic views of death as natural transformation, though Taoism frames it specifically through the lens of cosmic flow and cyclical change rather than rational acceptance.",
       },
+      {
+        tradition: "Jainism",
+        facts:
+          "Death is a transition within the ongoing cycle of rebirth (samsara), determined by accumulated karma, continuing until the soul achieves moksha and rises to siddhashila, a realm of liberated, omniscient souls, at the universe's summit.",
+        interpretation:
+          "Scholars often note the highly structured Jain cosmology gives liberation a specific 'destination,' offering a more precisely mapped afterlife than many other karma-based traditions.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Shinto has no single fixed doctrine of the afterlife; the dead are often understood to become ancestral kami, continuing to influence and be honored by the living, particularly through household and shrine rituals.",
+        interpretation:
+          "Scholars frequently note that in Japan, Shinto's ancestor-focused practices have historically coexisted alongside Buddhist afterlife beliefs, with many practitioners drawing on both rather than treating them as exclusive.",
+      },
     ],
   },
   consciousness: {
@@ -289,6 +331,20 @@ export const content: Record<string, QuestionContent> = {
           "The self is understood as inseparable from the natural world and the Tao, rather than as a bounded, independent entity; rigid notions of a fixed self are often treated as an obstacle to living in harmony with the Tao.",
         interpretation:
           "Scholars frequently compare this fluid conception of self to Buddhist non-self, while noting Taoism frames it through nature and cosmic flow rather than through analysis of mental processes.",
+      },
+      {
+        tradition: "Jainism",
+        facts:
+          "Every living being is held to possess an eternal, individual soul (jiva) that is inherently omniscient and blissful, though this true nature is obscured by accumulated karmic matter; liberation reveals the soul's original, unclouded nature.",
+        interpretation:
+          "Scholars often contrast this with Buddhist non-self: Jainism affirms a real, eternal individual soul, differing sharply from Buddhism despite both traditions sharing a karma-and-liberation framework.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "There is no single systematic doctrine of the self; personhood is generally understood in relation to kami, ancestry, and community, with less emphasis on articulating an inner metaphysical self than in many other traditions.",
+        interpretation:
+          "Scholars often note this reflects Shinto's broader character as a practice-centered tradition, with communal ritual and relationship emphasized over abstract metaphysical claims about consciousness.",
       },
     ],
   },
@@ -360,6 +416,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often contrast this with more rule-based or virtue-cultivation ethical systems: Taoist ethics is frequently described as an ethics of restraint and non-imposition rather than active moral construction.",
       },
+      {
+        tradition: "Jainism",
+        facts:
+          "Ethics centers on the Five Vows (vratas) — non-violence (ahimsa), truthfulness, non-stealing, chastity, and non-attachment — observed with particular strictness by monastics and in a moderated form by laypeople.",
+        interpretation:
+          "Scholars often highlight Jain non-violence as among the most rigorously and consistently applied in any world religion, extending to dietary practice and daily conduct in ways that shape the whole of life.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Ethics is less codified into fixed commandments and more expressed through maintaining purity, sincerity (makoto), and proper ritual conduct, alongside respect for kami, ancestors, and community harmony.",
+        interpretation:
+          "Scholars often describe Shinto ethics as oriented around right relationship and ritual correctness rather than around a fixed, universal moral code.",
+      },
     ],
   },
   "free-will": {
@@ -430,6 +500,20 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars frequently note this reframes the free will question itself: the Taoist ideal is less about exercising freedom and more about relinquishing forceful self-assertion altogether.",
       },
+      {
+        tradition: "Jainism",
+        facts:
+          "Karma is understood as a subtle physical substance that binds to the soul based on one's actions and intentions; individuals retain genuine agency to reduce future karmic influx through disciplined, non-violent choices.",
+        interpretation:
+          "Scholars often note Jainism places unusually strong emphasis on individual responsibility and effort, given how directly and mechanistically karma is tied to specific chosen actions in Jain metaphysics.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Shinto does not articulate a systematic doctrine of free will versus determinism; individuals are generally understood to act within a world shaped by kami and natural order, while retaining responsibility for ritual and ethical conduct.",
+        interpretation:
+          "Scholars often note that, consistent with its broader character, Shinto tends not to resolve this question doctrinally, leaving it largely unaddressed in systematic terms.",
+      },
     ],
   },
   identity: {
@@ -499,6 +583,20 @@ export const content: Record<string, QuestionContent> = {
           "Identity is understood as fluid and processual, deeply embedded in and inseparable from the natural world, rather than as a fixed, bounded self distinct from one's surroundings.",
         interpretation:
           "Scholars frequently compare this to Buddhist and some Hindu non-dualist views of identity as constructed or interdependent, while Taoism frames it specifically through harmony with nature rather than metaphysical analysis of the self.",
+      },
+      {
+        tradition: "Jainism",
+        facts:
+          "Identity is grounded in the individual, eternal soul (jiva), understood as ultimately distinct from every other soul and from all non-living matter (ajiva); spiritual practice aims to realize the soul's true, unclouded nature.",
+        interpretation:
+          "Scholars often note Jainism affirms a strongly individualist metaphysics of the self relative to non-dualist Hindu or Buddhist non-self views, treating each soul as a genuinely separate, eternal entity.",
+      },
+      {
+        tradition: "Shinto",
+        facts:
+          "Identity is closely tied to community, ancestry, and one's relationship to local kami and shrines, often expressed through participation in seasonal festivals (matsuri) and household or regional ritual practice.",
+        interpretation:
+          "Scholars often describe Shinto identity as fundamentally local and communal, historically bound to place and lineage rather than to a universal creed shared identically across all practitioners.",
       },
     ],
   },

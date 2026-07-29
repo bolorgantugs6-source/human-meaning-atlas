@@ -15,4 +15,6 @@ export const origins: Origin[] = [
   { tradition: "Confucianism", region: "Eastern China", x: 82, y: 33 },
   { tradition: "Sikhism", region: "Punjab", x: 69.5, y: 33.8 },
   { tradition: "Taoism", region: "Eastern China", x: 80.5, y: 31 },
+  { tradition: "Jainism", region: "Northeastern India", x: 72, y: 39 },
+  { tradition: "Shinto", region: "Japan", x: 89, y: 33 },
 ];

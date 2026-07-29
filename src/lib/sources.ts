@@ -128,4 +128,34 @@ export const sources: Record<string, Source[]> = {
       type: "reference",
     },
   ],
+  Jainism: [
+    {
+      title: "Tattvartha Sutra",
+      author: "Umasvati",
+      type: "primary",
+    },
+    { title: "Acaranga Sutra", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Jainism\"",
+      type: "reference",
+    },
+  ],
+  Shinto: [
+    { title: "Kojiki", type: "primary" },
+    { title: "Nihon Shoki", type: "primary" },
+    {
+      title: "The Oxford Dictionary of World Religions",
+      author: "John Bowker (ed.)",
+      type: "reference",
+    },
+    {
+      title: "Encyclopaedia Britannica — \"Shinto\"",
+      type: "reference",
+    },
+  ],
 };
