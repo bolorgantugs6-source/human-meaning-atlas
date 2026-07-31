@@ -158,4 +158,49 @@ export const sources: Record<string, Source[]> = {
       type: "reference",
     },
   ],
+  Zoroastrianism: [
+    { title: "The Avesta", type: "primary" },
+    { title: "The Oxford Dictionary of World Religions", author: "John Bowker (ed.)", type: "reference" },
+    { title: "Encyclopaedia Britannica — \"Zoroastrianism\"", type: "reference" },
+  ],
+  "Bahá'í Faith": [
+    { title: "Kitáb-i-Aqdas", author: "Bahá'u'lláh", type: "primary" },
+    { title: "The Oxford Dictionary of World Religions", author: "John Bowker (ed.)", type: "reference" },
+    { title: "Encyclopaedia Britannica — \"Bahá'í Faith\"", type: "reference" },
+  ],
+  Rastafari: [
+    { title: "The Holy Piby", author: "Robert Athlyi Rogers", type: "primary" },
+    { title: "The Bible (King James Version, as reinterpreted)", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"Rastafari\"", type: "reference" },
+  ],
+  "Latter-day Saints (Mormonism)": [
+    { title: "The Book of Mormon", type: "primary" },
+    { title: "Doctrine and Covenants", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"The Church of Jesus Christ of Latter-day Saints\"", type: "reference" },
+  ],
+  "Secular Humanism": [
+    { title: "Humanist Manifesto III", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"Humanism\"", type: "reference" },
+  ],
+  Wicca: [
+    { title: "Witchcraft Today", author: "Gerald Gardner", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"Wicca\"", type: "reference" },
+  ],
+  "Unitarian Universalism": [
+    { title: "The Seven Principles", author: "Unitarian Universalist Association", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"Unitarian Universalism\"", type: "reference" },
+  ],
+  "Haitian Vodou": [
+    { title: "Divine Horsemen: The Living Gods of Haiti", author: "Maya Deren", type: "reference" },
+    { title: "Encyclopaedia Britannica — \"Vodou\"", type: "reference" },
+  ],
+  "Ancient Egyptian Religion": [
+    { title: "The Egyptian Book of the Dead", type: "primary" },
+    { title: "The Pyramid Texts", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"ancient Egyptian religion\"", type: "reference" },
+  ],
+  Manichaeism: [
+    { title: "The Kephalaia of the Teacher", type: "primary" },
+    { title: "Encyclopaedia Britannica — \"Manichaeism\"", type: "reference" },
+  ],
 };

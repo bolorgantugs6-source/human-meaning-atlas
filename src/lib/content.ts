@@ -94,6 +94,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars frequently note that Shinto is comparatively unconcerned with articulating a single doctrinal 'meaning of life,' focusing instead on ritual relationship and harmony in the present.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Meaning is found in actively participating in the cosmic struggle between Ahura Mazda (the wise lord, representing good) and Angra Mainyu (representing evil and falsehood), lived out through good thoughts, good words, and good deeds.",
+        interpretation:
+          "Scholars often note this dualistic framework gives everyday ethical choices genuine cosmic weight, since each act is understood as tipping the balance of a real ongoing struggle.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Meaning is found in recognizing the progressive revelation of one God through a succession of messengers (including Bahá'u'lláh), and in working toward the spiritual and practical unity of humanity.",
+        interpretation:
+          "Scholars often highlight Bahá'í's explicit universalism here — other world religions are treated as valid earlier stages of one unfolding revelation, rather than as competitors.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Meaning is found in recognizing indwelling divinity (Jah) within oneself, living a natural and balanced life ('livity'), and orienting toward spiritual and historical redemption, often expressed through the idea of return to Zion (Africa).",
+        interpretation:
+          "Scholars often frame this as a liberation theology, with meaning inseparable from the specific historical experience of the African diaspora and its aspiration toward dignity and freedom.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "Meaning is found in pursuing eternal progression toward exaltation through covenants and ordinances (such as baptism and temple sealing), with family relationships understood as capable of continuing eternally.",
+        interpretation:
+          "Scholars often note LDS theology treats meaning as inseparable from an unusually expansive, cosmic view of human potential and eternal family bonds.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Meaning is understood as constructed by individuals and communities through reason, ethics, and lived experience, without appeal to supernatural authority, with emphasis on human dignity and improving wellbeing in this life.",
+        interpretation:
+          "Scholars often describe humanism as relocating meaning entirely within human agency and empirical understanding, explicitly setting it apart from every other tradition on this site.",
+      },
+      { tradition: "Wicca", facts: "Meaning is found in attunement with nature and the cycles of the seasons, honoring a Goddess and God (or a more diffuse divine polarity), and practicing magic understood as directing natural energies toward one's will, guided by the Wiccan Rede ('an it harm none, do what ye will').", interpretation: "Scholars often describe Wicca as reviving and reconstructing pre-Christian nature-reverence within a modern framework emphasizing personal spiritual autonomy over fixed doctrine." },
+      { tradition: "Unitarian Universalism", facts: "Rather than a shared doctrine, meaning is pursued through each individual's free and responsible search for truth, guided by Seven Principles emphasizing human dignity, justice, and interdependence, drawing on multiple religious and secular sources.", interpretation: "Scholars often characterize this as among the most explicitly pluralistic religious frameworks, deliberately avoiding a single required answer to questions of ultimate meaning." },
+      { tradition: "Haitian Vodou", facts: "Meaning is found in maintaining right relationship with the lwa (spirits) and ancestors, who mediate between humans and a distant creator god (Bondye), expressed through ritual service, possession, and community.", interpretation: "Scholars often note Vodou's meaning-making is fundamentally relational and communal, enacted through ongoing ritual practice rather than abstract belief alone." },
+      { tradition: "Ancient Egyptian Religion", facts: "Meaning was found in maintaining ma'at (cosmic order, truth, and balance) through ritual, ethical conduct, and proper relationship with a large pantheon of gods, understood as essential to sustaining the world itself.", interpretation: "Scholars often note that in this framework, meaning was inseparable from cosmic maintenance — human ethical failure was believed capable of destabilizing the world order itself." },
+      { tradition: "Manichaeism", facts: "Meaning was found in aiding the liberation of light (goodness, spirit) trapped within darkness (evil, matter) through ascetic practice and knowledge (gnosis), understood as participation in a cosmic drama between two eternal, opposing principles.", interpretation: "Scholars often note Manichaeism represents one of history's most thoroughgoing religious dualisms, treating the material world itself, not just moral choice, as a site of cosmic conflict." },
     ],
   },
   suffering: {
@@ -178,6 +218,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often characterize the Shinto approach to suffering as practice-oriented rather than explanatory — the emphasis falls on restoring ritual purity rather than on diagnosing suffering's ultimate cause.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Suffering is attributed to the active influence of Angra Mainyu and the forces of falsehood in the world; it is addressed through deliberate moral choice on the side of Ahura Mazda, since passivity is understood to allow evil to persist.",
+        interpretation:
+          "Scholars often note this is among history's clearest religious dualisms, treating suffering as a genuine cosmic battle rather than illusion, punishment, or test alone.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Suffering is understood partly as a means of spiritual growth and detachment from material attachment, and partly as a consequence of humanity's disunity and failure to recognize divine guidance.",
+        interpretation:
+          "Scholars often connect this to Bahá'í's broader emphasis on social unity, treating much suffering as remediable through collective moral and social progress.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "The historical suffering of the African diaspora, often termed 'downpression,' is understood as a consequence of oppressive systems (termed 'Babylon'); it is addressed through resistance, cultural pride, and spiritual and physical liberation.",
+        interpretation:
+          "Scholars often describe this as an explicitly political and historical account of suffering, rooted in the specific experience of slavery and colonialism rather than abstract metaphysics.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "Suffering is understood partly as a consequence of the Fall and mortal testing, offering opportunities for growth and reliance on Christ's atonement, which is held to address both sin and suffering.",
+        interpretation:
+          "Scholars often note LDS theology treats mortal suffering as a purposeful, temporary stage within a much longer eternal narrative of growth and progression.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Suffering is addressed primarily through practical, evidence-based means — medicine, social reform, and community support — rather than through theological explanation of its ultimate cause.",
+        interpretation:
+          "Scholars often note humanism treats reducing suffering as a human ethical responsibility rather than a metaphysical puzzle requiring religious explanation.",
+      },
+      { tradition: "Wicca", facts: "Suffering is generally understood through natural cause and consequence rather than cosmic punishment, addressed through ritual, personal responsibility, and the ethical principle of the Rede, alongside the 'threefold law' — the belief that actions return to the practitioner amplified.", interpretation: "Scholars often note Wicca's account of suffering is comparatively practical and this-worldly, without a developed theology of cosmic evil." },
+      { tradition: "Unitarian Universalism", facts: "Suffering is addressed primarily through community support, social justice action, and individual meaning-making, without a required theological explanation of its ultimate cause.", interpretation: "Scholars often note this reflects the tradition's broader pattern: practical, ethical response is prioritized over doctrinal explanation." },
+      { tradition: "Haitian Vodou", facts: "Suffering is often understood as resulting from disrupted relationships with the lwa or ancestors, or from malevolent spiritual forces, addressed through ritual healing, offerings, and restoring right relationship with the spirit world.", interpretation: "Scholars often describe this as a fundamentally relational account of suffering, in which affliction signals a relationship needing repair rather than an abstract metaphysical problem." },
+      { tradition: "Ancient Egyptian Religion", facts: "Suffering and chaos (isfet) were understood as the opposite of ma'at, requiring active maintenance of cosmic and social order through ritual, kingship, and proper conduct to hold back disorder.", interpretation: "Scholars often note the ancient Egyptian worldview treated suffering as a real threat to cosmic stability, not merely a personal or moral matter." },
+      { tradition: "Manichaeism", facts: "Suffering was attributed to the imprisonment of light (the good, spiritual element) within darkness and matter; addressed through ascetic discipline, knowledge, and practices intended to liberate the light within oneself and the world.", interpretation: "Scholars often note this gives suffering a literal cosmic-material explanation, rare in its thoroughness among world religions." },
     ],
   },
   death: {
@@ -262,6 +342,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars frequently note that in Japan, Shinto's ancestor-focused practices have historically coexisted alongside Buddhist afterlife beliefs, with many practitioners drawing on both rather than treating them as exclusive.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "After death, the soul crosses the Chinvat Bridge for judgment; the righteous proceed to paradise while the wicked fall to a place of punishment, with a final resurrection and renewal of the world (Frashokereti) anticipated.",
+        interpretation:
+          "Scholars often note Zoroastrian eschatology significantly influenced later Jewish, Christian, and Islamic ideas about judgment, resurrection, and a cosmic end-time.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Death is understood as birth into a spiritual existence; the soul continues progressing through spiritual worlds, drawing nearer to or further from God based on one's earthly deeds and character, without reincarnation.",
+        interpretation:
+          "Scholars often note this framework treats the afterlife as continuous spiritual development rather than a single fixed moment of judgment.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Beliefs vary considerably: many Rastas hold that righteous believers are spiritually and physically 'everliving,' emphasizing Zion (identified with Africa/Ethiopia) as a form of heaven on earth achieved through righteous living, rather than affirming a conventional afterlife.",
+        interpretation:
+          "Scholars often note Rastafari's fluid, non-doctrinal approach to death reflects its broader resistance to the systematized theology inherited from colonial Christianity.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "After death, the soul awaits resurrection and enters one of three degrees of glory based on faith and works, with exaltation in the highest degree available to the most faithful, particularly those sealed in eternal marriage.",
+        interpretation:
+          "Scholars often highlight the LDS afterlife as unusually structured, offering multiple tiered outcomes rather than a strict heaven-or-hell binary common elsewhere.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Death is generally understood as the final end of individual consciousness, with no afterlife; meaning and legacy are located in one's impact on others and the world during life.",
+        interpretation:
+          "Scholars often note humanism's naturalistic account of death shapes its broader emphasis on making the most of a finite life rather than orienting toward a transcendent future.",
+      },
+      { tradition: "Wicca", facts: "Death is often understood through the Summerland, a restful afterlife realm, followed by eventual reincarnation; beliefs vary considerably given Wicca's decentralized, non-dogmatic structure.", interpretation: "Scholars often note that because Wicca has no central authority, afterlife beliefs are notably diverse even among practitioners of the same tradition." },
+      { tradition: "Unitarian Universalism", facts: "No single doctrine of the afterlife is required; individual members hold a range of views from various religious traditions or hold none at all, consistent with the tradition's pluralistic structure.", interpretation: "Scholars often cite this as an unusually explicit example of a religious community intentionally declining to mandate belief on a classically central theological question." },
+      { tradition: "Haitian Vodou", facts: "After death, the soul is understood to journey to Ginen (a spiritual homeland associated with Africa) or become a lwa itself, continuing to interact with and be honored by the living community.", interpretation: "Scholars often note the strong continuity between living and dead in Vodou cosmology, with ancestors remaining active participants in community life." },
+      { tradition: "Ancient Egyptian Religion", facts: "Death involved an elaborate afterlife journey, including judgment before Osiris (the weighing of the heart against the feather of ma'at), with successful souls proceeding to the Field of Reeds; extensive funerary practices, including mummification, aimed to preserve the body for this journey.", interpretation: "Scholars often point to this as among history's most materially elaborate afterlife traditions, reflected in the scale of tombs, texts, and funerary artifacts it produced." },
+      { tradition: "Manichaeism", facts: "At death, the light within a righteous soul was believed to ascend and rejoin the realm of light, while those who failed to attain sufficient purification faced further cycles of rebirth until liberation was achieved.", interpretation: "Scholars often note this combines elements of Zoroastrian judgment and Indian-influenced rebirth concepts, reflecting Manichaeism's historical position at a crossroads of religious traditions." },
     ],
   },
   consciousness: {
@@ -346,6 +466,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often note this reflects Shinto's broader character as a practice-centered tradition, with communal ritual and relationship emphasized over abstract metaphysical claims about consciousness.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Humans possess a soul (urvan) engaged in an ongoing moral struggle, with free will central to choosing between the forces of good and evil.",
+        interpretation:
+          "Scholars often note the self here is defined significantly by its participation in the cosmic ethical drama, rather than by fixed metaphysical properties alone.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "The soul is understood as a rational, spiritual reality distinct from the body, continuing to exist and develop after physical death, with life's purpose centered on developing spiritual qualities that reflect divine attributes.",
+        interpretation:
+          "Scholars often note this reflects a broadly Abrahamic soul concept adapted to Bahá'í's emphasis on continuous spiritual progress rather than a single judgment event.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Jah (God) is understood to reside within each person, and self-realization involves recognizing this indwelling divinity; the concept of 'I and I' expresses unity of self, God, and community rather than a separate individual ego.",
+        interpretation:
+          "Scholars often highlight this as reflecting a distinctly communal, non-dualistic notion of selfhood that blurs boundaries between individual, community, and divine.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "The spirit is understood as co-eternal with God, existing before birth, and continuing eternally after death; embodiment through mortal birth is considered essential to the soul's eternal progression.",
+        interpretation:
+          "Scholars often note LDS theology is distinctive among Christian traditions in holding that the soul's existence predates conception, not merely survives death.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Consciousness and selfhood are generally understood through naturalistic and scientific frameworks — as emergent properties of the brain — without appeal to a soul or non-physical spiritual substance.",
+        interpretation:
+          "Scholars often note this materialist view places humanism in direct contrast with every other tradition here, most of which posit some non-physical component to the self.",
+      },
+      { tradition: "Wicca", facts: "The self is often understood as connected to both a divine spark and the natural world, with the mind and will treated as capable of directing magical energy through focused intention.", interpretation: "Scholars often note Wiccan views of the self are generally less systematized than in older traditions, consistent with its emphasis on individual practice over fixed doctrine." },
+      { tradition: "Unitarian Universalism", facts: "No single view of consciousness or the soul is required; individual members may hold theistic, humanist, naturalist, or other views, reflecting the tradition's foundational pluralism.", interpretation: "Scholars often note this is a defining structural feature rather than an oversight — doctrinal openness on metaphysical questions is treated as a value in itself." },
+      { tradition: "Haitian Vodou", facts: "A person is understood to possess multiple spiritual components, including the gwo bon anj (life force) and ti bon anj (personal consciousness/character), which can be engaged through ritual practices such as possession by a lwa.", interpretation: "Scholars often note this layered view of selfhood supports Vodou's distinctive practice of ritual possession, in which a lwa is understood to temporarily inhabit a devotee." },
+      { tradition: "Ancient Egyptian Religion", facts: "The person was understood to comprise multiple elements, including the ka (life force), ba (personality/soul), and akh (transfigured spirit after death), each playing a distinct role before and after death.", interpretation: "Scholars often note this multi-part model of selfhood is notably more elaborate than most other traditions' single-soul concepts." },
+      { tradition: "Manichaeism", facts: "The self was understood as a mixture of light (true, spiritual self) and darkness (material corruption); spiritual practice aimed at purifying and liberating the light-self from its material entanglement.", interpretation: "Scholars often note this treats the self almost as a battleground, with liberation understood as separating one's true nature from a contaminating material element." },
     ],
   },
   morality: {
@@ -430,6 +590,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often describe Shinto ethics as oriented around right relationship and ritual correctness rather than around a fixed, universal moral code.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Ethics centers on the triad of good thoughts, good words, and good deeds, understood as active alignment with Ahura Mazda against the forces of falsehood and evil.",
+        interpretation:
+          "Scholars often describe Zoroastrian ethics as unusually action-oriented, since every ethical choice is framed as tipping the balance of a real cosmic struggle.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Ethics emphasizes the oneness of humanity, elimination of prejudice, equality of men and women, and harmony between science and religion, drawn from the writings of Bahá'u'lláh.",
+        interpretation:
+          "Scholars often note Bahá'í ethics is distinctively oriented toward global social reform and unity, more explicitly than many older traditions.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Ethics emphasizes natural living (an 'ital' diet, avoiding processed foods), non-violence, resistance to oppressive systems, and communal solidarity, guided loosely by reinterpreted biblical principles rather than codified law.",
+        interpretation:
+          "Scholars often note Rastafari ethics blends personal spiritual discipline with an explicitly political stance against systemic injustice.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "Ethics is guided by scripture (including the Book of Mormon and Doctrine and Covenants) and ongoing revelation through Church leadership, with particular emphasis on family, chastity, service, and a health code (the Word of Wisdom).",
+        interpretation:
+          "Scholars often highlight the role of continuing revelation in LDS ethics, treating moral guidance as an active, ongoing process rather than a closed historical canon.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Ethics is grounded in reason, empathy, and the consequences of actions for human wellbeing, articulated in documents like the Humanist Manifesto, without appeal to divine command.",
+        interpretation:
+          "Scholars often classify humanist ethics as a form of secular consequentialism, deriving moral obligation from shared human interests rather than religious authority.",
+      },
+      { tradition: "Wicca", facts: "Ethics centers on the Wiccan Rede ('an it harm none, do what ye will') and the threefold law, holding that one's actions, particularly magical ones, return to the practitioner amplified.", interpretation: "Scholars often note this creates a self-regulating ethical structure without external commandments, relying instead on consequence-based reasoning." },
+      { tradition: "Unitarian Universalism", facts: "Ethics is guided by the Seven Principles, emphasizing the inherent worth of every person, justice and compassion, acceptance of one another, and the interdependent web of existence, rather than a fixed moral code.", interpretation: "Scholars often describe this as principle-based rather than rule-based ethics, prioritizing shared values over specific prescribed behaviors." },
+      { tradition: "Haitian Vodou", facts: "Ethics emphasizes maintaining right relationship with community, ancestors, and the lwa, alongside reciprocity, respect, and fulfilling ritual and communal obligations.", interpretation: "Scholars often note Vodou ethics is fundamentally relational and communal, less concerned with abstract universal rules than with maintaining specific, ongoing relationships." },
+      { tradition: "Ancient Egyptian Religion", facts: "Ethics centered on upholding ma'at through honesty, justice, and proper conduct in both public and private life, famously reflected in the 'negative confession' recited during judgment after death, listing sins the deceased claimed not to have committed.", interpretation: "Scholars often note the connection between everyday ethics and cosmic order here was treated as direct and consequential, not merely social convention." },
+      { tradition: "Manichaeism", facts: "Ethics for the elect (the most devoted practitioners) involved strict asceticism, including dietary restriction and celibacy, aimed at minimizing entanglement with matter, while ordinary followers ('hearers') observed a more moderate set of obligations.", interpretation: "Scholars often note this two-tiered ethical structure — a rigorous path for the elect and a supporting role for others — was historically distinctive and later echoed in other religious movements." },
     ],
   },
   "free-will": {
@@ -514,6 +714,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often note that, consistent with its broader character, Shinto tends not to resolve this question doctrinally, leaving it largely unaddressed in systematic terms.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Free will is considered central and non-negotiable — humans must actively choose between the forces of Ahura Mazda and Angra Mainyu, and this choice is what gives moral responsibility its weight.",
+        interpretation:
+          "Scholars often note Zoroastrianism places unusually strong emphasis on free will among ancient traditions, treating passivity itself as a moral failure.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Free will is affirmed as essential to spiritual growth, with humans responsible for recognizing and acting upon the guidance of God's messengers; predestination is not emphasized.",
+        interpretation:
+          "Scholars often note Bahá'í teaching treats free will as necessary for genuine spiritual progress across successive stages of the soul's development.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Individuals are understood to have agency to recognize their own divinity and choose righteous 'livity,' though systemic oppression ('Babylon') is seen as constraining that freedom in practice.",
+        interpretation:
+          "Scholars often frame this as a socially situated view of free will, where genuine liberty is something historically denied and actively reclaimed, not simply assumed.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "Moral agency — the freedom to choose — is considered a foundational pre-mortal gift, essential to the entire purpose of earthly life as a period of testing and learning.",
+        interpretation:
+          "Scholars often note LDS theology places free will at the very center of its cosmology, framing a pre-mortal conflict explicitly around the preservation of agency.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Views vary among humanists, with some affirming a practical, functional sense of choice compatible with a naturalistic universe, and others adopting more deterministic views informed by neuroscience, while still emphasizing rational deliberation and responsibility.",
+        interpretation:
+          "Scholars often note humanism does not require one settled metaphysical answer here, treating the practical exercise of reasoned choice as sufficient grounds for ethical responsibility.",
+      },
+      { tradition: "Wicca", facts: "Free will is central and largely unconstrained by external doctrine; the Wiccan Rede explicitly frames ethical action around the exercise of one's own will, bounded mainly by the principle of avoiding harm.", interpretation: "Scholars often note Wicca places free will at the structural center of its ethics, in a more explicit and individualist way than most older traditions." },
+      { tradition: "Unitarian Universalism", facts: "Free will and individual conscience are emphasized through the principle of 'a free and responsible search for truth and meaning,' with no doctrinal claims about predestination or determinism.", interpretation: "Scholars often note this reflects the tradition's broader commitment to individual spiritual autonomy as a core value in itself." },
+      { tradition: "Haitian Vodou", facts: "Individuals are understood to exercise real agency in maintaining relationships with the lwa and ancestors, though spiritual forces and inherited obligations are also understood to shape one's circumstances and path.", interpretation: "Scholars often describe this as a relational middle position, where freedom operates within, rather than outside of, an ongoing web of spiritual relationships and obligations." },
+      { tradition: "Ancient Egyptian Religion", facts: "Individuals were understood to have real responsibility for upholding ma'at through their choices, reflected in the judgment of the dead based on one's specific conduct during life.", interpretation: "Scholars often note the elaborate judgment scene in Egyptian funerary texts assumes genuine moral accountability, implying meaningful free choice during life." },
+      { tradition: "Manichaeism", facts: "The elect were believed to exercise significant will in pursuing ascetic purification, though the human condition itself — the light trapped in darkness — was understood as an inherited cosmic circumstance not of one's own choosing.", interpretation: "Scholars often note Manichaeism combines a strong emphasis on chosen ascetic effort with a fundamentally inherited, cosmic constraint on the human condition." },
     ],
   },
   identity: {
@@ -598,6 +838,46 @@ export const content: Record<string, QuestionContent> = {
         interpretation:
           "Scholars often describe Shinto identity as fundamentally local and communal, historically bound to place and lineage rather than to a universal creed shared identically across all practitioners.",
       },
+      {
+        tradition: "Zoroastrianism",
+        facts:
+          "Identity is shaped significantly by ongoing participation in the cosmic struggle between good and evil, alongside religious community, particularly among Parsi communities in South Asia today.",
+        interpretation:
+          "Scholars often note that after centuries as a minority tradition, Zoroastrian identity today is closely tied to specific communities, blending ethnic and religious dimensions.",
+      },
+      {
+        tradition: "Bahá'í Faith",
+        facts:
+          "Identity is grounded in one's spiritual nature and relationship to God, understood as part of a single global human family transcending national, racial, and religious divisions; the Bahá'í community is notably open to converts from any background.",
+        interpretation:
+          "Scholars often highlight Bahá'í's explicit rejection of exclusive ethnic or national identity markers as a defining, distinctive feature relative to many older traditions.",
+      },
+      {
+        tradition: "Rastafari",
+        facts:
+          "Identity is closely tied to African heritage and diasporic history, expressed through practices like dreadlocks and Rasta colors, alongside spiritual identification with the ancient Israelites.",
+        interpretation:
+          "Scholars often describe Rastafari identity as a reclaimed and reconstructed heritage, deliberately asserting dignity in response to the historical trauma of slavery and colonialism.",
+      },
+      {
+        tradition: "Latter-day Saints (Mormonism)",
+        facts:
+          "Identity is grounded in one's status as a literal spirit child of God, membership in a specific covenant community, and eternal family relationships understood to persist beyond death through temple sealing.",
+        interpretation:
+          "Scholars often note the emphasis on eternal, literal divine kinship gives LDS identity an unusually cosmic and genealogical dimension compared to many other traditions.",
+      },
+      {
+        tradition: "Secular Humanism",
+        facts:
+          "Identity is generally understood as shaped by biology, upbringing, culture, and personal choice, without reference to a soul or divine origin, with human dignity grounded in rational and moral capacity.",
+        interpretation:
+          "Scholars often note humanist identity is explicitly this-worldly, locating human worth in shared human characteristics rather than any transcendent designation.",
+      },
+      { tradition: "Wicca", facts: "Identity is often shaped by initiation into a coven or solitary practice, relationship to nature and the seasonal wheel of the year, and personal magical and spiritual development.", interpretation: "Scholars often note Wiccan identity is generally more individually constructed and less collectively fixed than in traditions with centralized authority or a single scripture." },
+      { tradition: "Unitarian Universalism", facts: "Identity is shaped by participation in a covenantal community bound by shared principles rather than shared belief, often incorporating multiple religious or cultural influences into one's personal identity.", interpretation: "Scholars often describe Unitarian Universalist identity as explicitly syncretic and self-authored, by design rather than by exception." },
+      { tradition: "Haitian Vodou", facts: "Identity is closely tied to family lineage, community, and particular relationships with specific lwa, often traced through inherited ritual obligations and African diasporic heritage.", interpretation: "Scholars often note Vodou identity is deeply relational and historically rooted, connecting individuals to both spiritual lineage and the broader history of the African diaspora." },
+      { tradition: "Ancient Egyptian Religion", facts: "Identity was closely tied to one's social role, relationship to the pharaoh (understood as a divine or semi-divine mediator), and one's standing relative to ma'at, with elaborate funerary preparation reflecting concern for identity's continuation after death.", interpretation: "Scholars often note the enormous resources devoted to funerary preservation reflect how seriously personal identity's continuity beyond death was taken in this tradition." },
+      { tradition: "Manichaeism", facts: "Identity was understood in terms of one's degree of purification from material darkness and one's status as elect or hearer, with the ultimate hoped-for identity being liberated light, fully separated from material corruption.", interpretation: "Scholars often note this makes identity itself a kind of trajectory or process — the goal of Manichaean life was to move progressively away from one's current, mixed condition." },
     ],
   },
 };
